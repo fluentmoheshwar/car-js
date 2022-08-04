@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <p id="name"></p>
+    <p id="model"></p>
+    <p id="top"></p>
+    <button onclick="document.getElementById('status').innerHTML=car.start();">Start</button>
+    <button onclick="document.getElementById('status').innerHTML=car.drive();">Drive</button>
+    <button onclick="document.getElementById('status').innerHTML=car.brake();">Brake</button>
+    <button onclick="document.getElementById('status').innerHTML=car.stop();">Stop</button>
+    <p id="status"></p>
+</body>
+</html>
